@@ -1,0 +1,51 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 1,
+            "members": [
+                {
+                    "name": "enabled",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "entity_type",
+                    "propertyType": "entity_type",
+                    "type": "string",
+                    "value": "player_default"
+                }
+            ],
+            "name": "character",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object",
+                "project"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "entity_type",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "player_default",
+                "dziaders",
+                "zombie"
+            ],
+            "valuesAsFlags": false
+        }
+    ]
+}

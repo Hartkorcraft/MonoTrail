@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>$(SolutionDir)build\FuNK\bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>..\..\build\FuNK\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

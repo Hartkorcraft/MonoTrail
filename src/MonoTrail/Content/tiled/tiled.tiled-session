@@ -1,0 +1,50 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "testMap.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "ground.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "scenery.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "testMap.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 27.875,
+                "y": 91.75
+            }
+        }
+    },
+    "last.imagePath": "D:/DokumentyITD/CodingStuff2/MonoXTrail2/MonoXTrail/Content",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "openFiles": [
+        "ground.tsx",
+        "testMap.tmx",
+        "scenery.tsx"
+    ],
+    "project": "tiled.tiled-project",
+    "property.type": "entity_type",
+    "recentFiles": [
+        "ground.tsx",
+        "scenery.tsx",
+        "testMap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

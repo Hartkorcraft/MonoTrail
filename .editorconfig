@@ -1,0 +1,32 @@
+[*.cs]
+
+# indent_style = space
+# indent_size = 2
+trim_trailing_whitespace = true
+csharp_style_namespace_declarations = file_scoped:warning
+
+dotnet_diagnostic.RCS1049.severity = none
+dotnet_diagnostic.IDE0130.severity = warning
+dotnet_diagnostic.IDE0161.severity = warning
+dotnet_diagnostic.RCS1191.severity = none
+dotnet_diagnostic.RCS1163.severity = none
+dotnet_diagnostic.RCS1001.severity = none
+dotnet_diagnostic.IDE0060.severity = none
+dotnet_diagnostic.RCS1036.severity = none
+dotnet_diagnostic.RCS0010.severity = suggestion
+dotnet_diagnostic.IDE0011.severity = none
+dotnet_diagnostic.IDE0022.severity = none
+dotnet_diagnostic.IDE0008.severity = none
+dotnet_diagnostic.IDE0040.severity = none
+dotnet_diagnostic.RCS1170.severity = none
+dotnet_diagnostic.IDE0023.severity = none
+dotnet_diagnostic.CA2201.severity = none
+dotnet_diagnostic.CA1051.severity = none
+dotnet_diagnostic.IDE0040.severity = none
+dotnet_diagnostic.IDE0008.severity = none
+dotnet_diagnostic.IDE0022.severity = none
+dotnet_diagnostic.IDE0160.severity = none
+dotnet_diagnostic.IDE0022.severity = none
+dotnet_diagnostic.CA1707.severity = none
+
+
