@@ -19,7 +19,8 @@ public class StoryInfoParsersTests
         input.Append($"    {line2}" + Environment.NewLine);
 
         var result = SectionText.Run(input.ToString());
-        var text = (string[])result.Results()[1];
+
+        var text = result.Results<string>();
 
         Assert.Equal([line1, line2], text);
         Assert.False(result.IsError, result.Error?.ToString());

@@ -22,7 +22,8 @@ public static class StoryInfoParsers
             SpaceIndentation(4),
             EndLineToken(Letters)
             .Many1())
-            .Recover(1));
+            .Recover(1))
+        .Recover(1);
     // public static readonly Parser ParseSection
 }
 
